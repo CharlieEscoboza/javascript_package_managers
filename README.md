@@ -3,14 +3,14 @@ Una presentación de manejadores de paquetes en Javascript
 
 ## Qué es un manejador de paquetes?
 
-"Un manejador de paquetes es una colecci&oacute;n de herramientas de software que
-    automatiza los procesos de instalaci&oacute;n, actualizaci&oacute;n, configuraci&oacute;n y remoci&oacute;n de programas
+"Un manejador de paquetes es una colección de herramientas de software que
+    automatiza los procesos de instalación, actualización, configuración y remoción de programas
     (librerias o frameworks en este caso)" - Wikipedia.
 
 ## Por qué un manejador de paquetes para Javascript?
 
    Nos guste o no Javascript se ha convertido en uno de los lenguajes mas diversificados de la web.
-   A la fecha existen miles de framweworks y librer&iacute;as basadas en Javascript.
+   A la fecha existen miles de framweworks y librerías basadas en Javascript.
 
 ## Frameworks y Librer&iacute;as basadas en Javascript
 
@@ -36,16 +36,19 @@ Y much@s más ...
 <img class="center" src="./images/days_without_a_javascript_framework.png" alt="memeloper" />
 
 ### dependencies:
-dependencies definition
+Son dependencias indispensables para que la aplicación funcione.
 
 ### devDependencies:
-devDependencies definition
+Son dependencias utilizadas solo para desarrollo. Estas dependencias no se instalan si el Node ENV es producción.
 
 ### peerDependencies:
-peerDependencies definition
+Son dependencias comunes entre las dependencias directas y las subdependencias de otras dependencias.
 
-### optionalDependencies:
-optionalDependencies definition
+## Especificaciones Semvers</h1>
+    - Patch releases: 1.0 or 1.0.x or ~1.0.4
+    - Minor releases: 1 or 1.x or ^1.0.4
+    - Major releases: * or x</p>
+(npm Semver Calculator)[https://semver.npmjs.com/]
 
 ## Cuál es el manejador de paquetes m&aacute;s popular ahora mismo?
 Voy a mencionar los más populares, algunos de ellos ya no tanto pero aún son mencionados
@@ -130,9 +133,3 @@ Voy a mencionar los más populares, algunos de ellos ya no tanto pero aún son m
     npm => react 0.14.8 => 15.9 seg
     yarn => react 0.14.8 => 8.56seg
   ```
-
-## Especificaciones Semvers</h1>
-    - Patch releases: 1.0 or 1.0.x or ~1.0.4
-    - Minor releases: 1 or 1.x or ^1.0.4
-    - Major releases: * or x</p>
-(npm Semver Calculator)[https://semver.npmjs.com/]
