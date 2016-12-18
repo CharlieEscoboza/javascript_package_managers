@@ -57,7 +57,7 @@ Voy a mencionar los más populares, algunos de ellos ya no tanto pero aún son m
     - NPM
     - Yarn
 
-## (Bower)[https://bower.io/]
+## [Bower](https://bower.io/)
 <img class="logo" src="./images/bower_logo.png" alt="bower logo" />
 
 ### Características:
@@ -79,7 +79,7 @@ Voy a mencionar los más populares, algunos de ellos ya no tanto pero aún son m
     bower search
  ```
 
-## (NPM)[https://www.npmjs.com/]
+## [NPM](https://www.npmjs.com/)
 <img class="logo" src="./images/npm_logo.png" alt="npm logo" />
 
 ### Características:
@@ -104,7 +104,7 @@ Voy a mencionar los más populares, algunos de ellos ya no tanto pero aún son m
     npm version
   ```
 
-## (Yarn)[https://yarnpkg.com/]
+## [Yarn](https://yarnpkg.com/)
 <img class="logo" src="./images/yarn_logo.png" alt="yarn logo" />
 
 ### Características:
