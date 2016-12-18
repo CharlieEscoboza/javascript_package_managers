@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+    <title>darren - Impress demo</title>
+    <meta charset="utf-8" />
+    <link href="./styles/impress-demo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./node_modules/highlight.js/styles/atelier-dune-dark.css">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+<div id="impress">
+    <div class="step" data-x="0" data-y="0" data-scale="1">
+        <h1>Qu&eacute; es un manejador de paquetes?</h1>
+
+        <blockquote>"Un manejador de paquetes es una colecci&oacute;n de herramientas de software que
+            automatiza los procesos de instalaci&oacute;n, actualizaci&oacute;n, configuraci&oacute;n y remoci&oacute;n de programas
+            (librerias en este caso)" - Wikipedia.
+        </blockquote>
+    </div>
+    <div class="step" data-x="1450" data-y="0" data-scale="0.5">
+        <h1>Por qu&eacute; un manejador de paquetes?</h1>
+        <p>Nos guste o no Javascript se ha convertido en uno de los lenguajes mas diversificados de la web. <br/>
+            A la fecha existen miles de framweworks y librer&iacute;as basadas en Javascript.
+        </p>
+    </div>
+    <div class="step" data-x="1250" data-y="-1300" data-scale="1.5">
+        <h1>Frameworks y Librer&iacute;as basadas en Javascript</h1>
+        <table class="center">
+            <tr>
+                <th>Nombre</th>
+                <th>Uso/Proposito</th>
+            </tr>
+            <tr>
+                <td>MariaJS</td>
+                <td>MVC framework</td>
+            </tr>
+            <tr>
+                <td>AureliaJS</td>
+                <td>UI framework</td>
+            </tr>
+            <tr>
+                <td>Lodash</td>
+                <td>Utility Framework</td>
+            </tr>
+            <tr>
+                <td>Meteor</td>
+                <td>Build env Framework</td>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Utility Framework</td>
+            </tr>
+            <tr>
+                <td>ExpressJS</td>
+                <td>Server framework</td>
+            </tr>
+            <tr>
+                <td>RaphaelJS</td>
+                <td>Vector Graphics Library</td>
+            </tr>
+            <tr>
+                <td>BackboneJS</td>
+                <td>MVC framework</td>
+            </tr>
+            <tr>
+                <td>EmberJS</td>
+                <td>MVC framework</td>
+            </tr>
+            <tr>
+                <td>Jasmine</td>
+                <td>Testing framework</td>
+            </tr>
+            <tr>
+                <td>KnockoutJS</td>
+                <td>MVC framework</td>
+            </tr>
+            <tr>
+                <td>EnzymeJS</td>
+                <td>Testing framework</td>
+            </tr>
+        </table>
+    </div>
+    <div class="step" data-x="0" data-y="-1000" data-scale="0.5">
+        <p>Y much@s m&aacute;s ...<br/>
+            C&oacute;mo manejo todas esas dependencias?<br/>
+            Boil&aacute; y ah&iacute; entran en acci&oacute;n los manejadores de paquetes de Javascript
+        </p>
+        <img class="center" src="./images/days_without_a_javascript_framework.png" alt="memeloper" />
+    </div>
+    <div class="step" data-x="-1250" data-y="-1200" data-scale="1.5">
+        <h2>dependencies:</h2>
+        <p>dependencies definition</p>
+        <h2>devDependencies:</h2>
+        <p>devDependencies definition</p>
+        <h2>peerDependencies:</h2>
+        <p>peerDependencies definition</p>
+        <h2>optionalDependencies:</h2>
+        <p>optionalDependencies definition</p>
+    </div>
+    <div class="step" data-x="-2100" data-y="200" data-scale="2">
+        <h1>Cu&aacute;l es el manejador de paquetes m&aacute;s popular ahora mismo?</h1>
+        <p>Voy a mencionar los m&aacute;s populares, algunos de ellos ya no tanto pero a&uacute;n son
+            mencionados y uno que llam&oacute; mi atenci&oacute;n
+        </p>
+        <ul>
+            <li>Bower</li>
+            <li>NPM</li>
+            <li>Yarn</li>
+        </ul>
+    </div>
+    <div class="step" data-x="-2550" data-y="-1200" data-scale="0.3">
+        <img class="logo" src="./images/bower_logo.png" alt="bower logo" />
+        <h1>Bower</h1>
+        <h2>Caracter&iacute;sticas</h2>
+        <ul>
+            <li>Para paquetes de Front-end</li>
+            <li>Se recomienda instalaci&oacute;n con NPM</li>
+            <li>Soporta instalar paquetes sin conexi&oacute;n a Internet</li>
+        </ul>
+    </div>
+    <div class="step" data-x="-2850" data-y="-1600" data-scale="0.2">
+        <h1>Principales comandos</h1>
+        <pre>
+            <code>
+                npm i -g bower
+                bower init
+                bower install (-S / -D) (--offline)
+                bower cache (list / clean)
+                bower list –paths
+                bower update
+                bower register
+                bower search
+            </code>
+        </pre>
+    </div>
+    <div class="step" data-x="2200" data-y="-1200" data-scale="0.2">
+        <img class="logo" src="./images/npm_logo.png" alt="npm logo" />
+        <h1>NPM</h1>
+        <h2>Caracter&iacute;sticas</h2>
+        <ul>
+            <li>Para paquetes de Front-end & Back-end</li>
+            <li>Se recomienda instalaci&oacute;n con Node or NVM</li>
+            <li>No soporta instalar paquetes sin conexi&oacute;n a Internet</li>
+        </ul>
+    </div>
+    <div class="step" data-x="2500" data-y="-600" data-scale="0.5">
+        <h1>Principales comandos</h1>
+        <pre>
+            <code>
+                npm init (-y)
+                npm install (-S / -D)
+                npm list (--json=true / --depth=0)
+                npm outdated
+                npm uninstall
+                npm publish
+                npm dedupe
+                npm unpublish
+                npm repo
+                npm root
+                npm search
+                npm version
+            </code>
+        </pre>
+    </div>
+    <div class="step" data-x="2800" data-y="0" data-scale="0.3">
+        <img class="logo" src="./images/yarn_logo.png" alt="yarn logo" />
+        <h1>Yarn</h1>
+        <h2>Caracter&iacute;sticas</h2>
+        <ul>
+            <li>Para paquetes de Front-end & Back-end</li>
+            <li>Se recomiendaba instalaci&oacute;n con NPM</li>
+            <li>Soporta instalar paquetes sin conexi&oacute;n a Internet</li>
+        </ul>
+    </div>
+    <div class="step" data-x="1300" data-y="1900" data-scale="1.5">
+        <h1>Principales comandos</h1>
+        <pre>
+            <code>
+                yarn init (-y)
+                yarn add (-D / -P / -O )
+                yarn upgrade
+                yarn remove
+                yarn / yarn install
+                yarn publish
+                yarn info
+                yarn ls (--json=true / --depth=0)
+                yarn outdated
+                yarn run &lt;script name&gt;
+                yarn version
+            </code>
+        </pre>
+    </div>
+    <div class="step" data-x="-400" data-y="1200" data-scale="1">
+        <h1>Velocidad</h1>
+        <pre>
+            <code>
+                  npm => react 0.14.8 => 15.9 seg
+                    yarn => react 0.14.8 => 8.56seg
+            </code>
+        </pre>
+    </div>
+    <div class="step" data-x="2000" data-y="-800" data-scale="0.2">
+        <h1>Especificaciones Semvers</h1>
+        <p>Patch releases: 1.0 or 1.0.x or ~1.0.4<br/>
+            Minor releases: 1 or 1.x or ^1.0.4<br/>
+            Major releases: * or x</p>
+        <a href="https://semver.npmjs.com/" target="_blank">npm Semver Calculator</a>
+    </div>
+    <div class="step" data-x="-4200" data-y="0" data-scale="1">
+        <p>Preguntas???</p>
+    </div>
+    <div class="step" data-x="2200" data-y="-400" data-scale="0.1">
+        <p>Muchas Gracias!!!</p>
+    </div>
+    <div id="overview" class="step" data-x="-200" data-y="-500" data-scale="6"></div>
+</div>
+<script src="./node_modules/impress.js/js/impress.js"></script>
+<script src="./scripts/highlight.pack.js"></script>
+<script>impress().init();</script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>

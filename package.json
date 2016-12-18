@@ -1,0 +1,18 @@
+{
+  "name": "impress-slide",
+  "version": "0.1.1",
+  "description": "a template to build fantastic slides which is based on impressjs",
+  "license": "MIT",
+  "main": "impress.js",
+  "dependencies": {
+    "highlight.js": "^9.8.0",
+    "impress.js": "^0.6.0",
+    "react": "0.14.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": ""
+}
