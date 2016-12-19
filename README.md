@@ -133,3 +133,12 @@ Voy a mencionar los más populares, algunos de ellos ya no tanto pero aún son m
     npm => react 0.14.8 => 15.9 seg
     yarn => react 0.14.8 => 8.56seg
   ```
+
+### Bibliografía y/o Referencias
+- [Package manager definition](https://en.wikipedia.org/wiki/Package_manager)
+- [Javascript libraries and frameworks list](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries)
+- [Bower API Docs](https://bower.io/docs/api/)
+- [NPM complex semvers docs](https://docs.npmjs.com/misc/semver)
+- [NPM Docs](https://docs.npmjs.com/)
+- [Yarn](https://yarnpkg.com)
+- [How-it-feels-to-learn-javascript-in-2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.dh9y8f3ex)
